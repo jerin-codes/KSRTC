@@ -13,7 +13,7 @@ router.get('/get-coordinates',function(req,res){
 })
 
 router.post('/post-coordinates',async function(req,res){
-  console.log("This route is beif=gn called successfully",req.body.message)
+  console.log("This route is beif=gn called successfullyt",req.body.message)
   // let product= await productHelpers.pushLatLogn(req.body.message)
   res.json({
     "message":"Api called success",
